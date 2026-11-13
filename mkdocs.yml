@@ -1,0 +1,36 @@
+site_name: ANARC × Vicharak — Shrike Lite Workshop
+site_description: Introduction to Microcontrollers | AAYAM XI
+site_url: https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+nav:
+  - Home: index.md
+  - Workshop plan: workshop-plan.md
+  - Microcontroller fundamentals: fundamentals.md
+  - Shrike Lite overview: shrike-lite.md
+  - Setup and flashing: setup.md
+  - First firmware: first-firmware.md
+  - GPIO and safety: gpio-safety.md
+  - Challenges: challenges.md
+  - Instructor runbook: instructor-runbook.md
+  - Participant guide: participant-guide.md
+  - Troubleshooting: troubleshooting.md
+  - Resources: resources.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - attr_list
+plugins:
+  - search
